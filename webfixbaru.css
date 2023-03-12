@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url("section 1.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #8da8ff;
+}
+header h1 {
+  font: "gotham";
+  font-style: italic;
+  font-weight: 120;
+  size: 24px;
+  line-height: 22.97px;
+  margin-top: 25px;
+  margin-left: 85px;
+  color: #ffffff;
+}
+header h1:hover {
+  cursor: pointer;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 5px;
+}
+nav ul li {
+  margin-left: 10px;
+  padding: 4px 6px;
+  display: inline-block;
+  margin-top: 15px;
+  color: #100c24;
+}
+nav ul li:hover {
+  text-decoration: underline;
+}
+
+button {
+  height: 36.75px;
+  text-align: center;
+  margin-right: 85px;
+  margin-top: 30px;
+  font-size: medium;
+  background: #3b57fa;
+  border: none;
+  border-radius: 15px;
+  width: 150px;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.button-1 {
+  margin-left: 700px;
+}
+button:hover {
+  cursor: pointer;
+  color: #c08267;
+  background-color: #ffffff;
+}
+#awal h1 {
+  padding-top: 60px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 72px;
+  color: #2000d5;
+}
+#awal p {
+  text-align: center;
+  font-family: "roboto";
+  color: #4f0a01;
+  font-weight: 400;
+  size: 24px;
+}
+#loker {
+  background-color: #fffcfb;
+}
+
+#loker h1 {
+  padding-top: 30px;
+  text-align: center;
+  color: #070403;
+}
+
+.foto img {
+  margin-top: 1%;
+  display: flex;
+  margin-left: 45%;
+}
+
+.tips {
+  margin-bottom: 10%;
+}
+.tips h2 {
+  padding: 30px;
+  text-align: center;
+  color: #92c1ff;
+}
+.tips p {
+  padding: 10px;
+  text-align: justify;
+  margin: 70px 10px 0 0;
+  color: #c08267;
+}
+
+#tips h2 {
+  text-align: center;
+  padding-top: 20px;
+  color: #c08267;
+}
+
+footer {
+  margin-top: 15%;
+  padding-top: 4%;
+  background-color: #8da8ff;
+  text-align: center;
+  height: 200px;
+  color: #fdfdfd;
+}
